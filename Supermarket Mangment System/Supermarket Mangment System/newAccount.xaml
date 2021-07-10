@@ -1,0 +1,152 @@
+﻿<Page x:Class="Supermarket_Mangment_System.newAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Supermarket_Mangment_System"
+        mc:Ignorable="d"
+        Title="newAccount" 
+        WindowHeight="600" WindowWidth="950" d:DesignWidth="975" d:DesignHeight="520">
+
+    <Page.Resources>
+        <Style x:Key="textblk" TargetType="TextBlock">
+            <Setter Property="Margin" Value="10,5,10,5"/>
+            <Setter Property="Foreground" Value="#03d3fc"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+        <Style x:Key="textbox" TargetType="TextBox" >
+            <Setter Property="Margin" Value="10,5,10,5"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Foreground" Value="#0883a1"/>
+            <Setter Property="Background" Value="#bdf2ff"/>
+        </Style>
+
+        <Style x:Key="pass" TargetType="PasswordBox" >
+            <Setter Property="Margin" Value="10,5,10,5"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Foreground" Value="#0883a1"/>
+            <Setter Property="Background" Value="#bdf2ff"/>
+        </Style>
+
+        <Style x:Key="invalid" TargetType="Label">
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="Foreground" Value="#eb240e"  />
+            <Setter Property="FontSize" Value="8"/>
+            <Setter Property="Visibility" Value="Hidden"/>
+            <Setter Property="Content" Value="Invalid Input"/>
+            <Setter Property="Margin" Value="10,10,0,0"/>
+
+        </Style>
+        <Style x:Key="btn" TargetType="Button">
+            <Setter Property="Margin" Value="30,30,0,0"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="#03d3fc"  BorderThickness="1" Padding="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+    </Page.Resources>
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"  />
+            <ColumnDefinition Width="auto"  />
+            <ColumnDefinition Width="auto"  />
+            <ColumnDefinition Width="40"  />
+            <ColumnDefinition Width="auto"  />
+            <ColumnDefinition Width="auto"  />
+            <ColumnDefinition Width="auto"  />
+            <ColumnDefinition Width="20"  />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="3" Grid.RowSpan="4"  >
+            <Image  Source="E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\eagle.png" Height="150" Width="150"  Margin="20,0"  />
+
+        </StackPanel>
+
+        <TextBlock  Grid.Row="1" Grid.Column="2" FontSize=" 18px" Grid.ColumnSpan="5" FontFamily="Showcard Gothic" Foreground="#03d3fc" HorizontalAlignment="Center" FontWeight="ExtraBold">
+            Create a new Account
+        </TextBlock>
+
+        <TextBlock Grid.Row="2" Grid.Column="1" Style="{StaticResource textblk }">
+            First Name
+        </TextBlock>
+        <TextBox Name="FName" Grid.Column="2" Grid.Row="2"  Style="{StaticResource textbox }">
+        </TextBox>
+        <Label  x:Name="FirstRequried"  Grid.Row="2" Grid.Column="1" Style="{StaticResource invalid}"/>
+
+        <TextBlock Grid.Row="2" Grid.Column="5" Style="{StaticResource textblk }" >
+            Last Name
+        </TextBlock>
+        <TextBox Name="LName" Grid.Column="6" Grid.Row="2" Style="{StaticResource textbox }"/>
+        <Label  x:Name="LastRequired"  Grid.Row="2" Grid.Column="5" Style="{StaticResource invalid}"/>
+
+
+        <TextBlock Grid.Row="3" Grid.Column="1" Text="Job Title" Style="{StaticResource textblk }"/>
+        <ComboBox  x:Name="Combo" SelectedIndex="0" Grid.Row="3" Grid.Column="2" Width="150" Margin="11,5,60,5">
+            <ComboBoxItem > Salesman</ComboBoxItem>
+            <ComboBoxItem>Manager</ComboBoxItem>
+        </ComboBox>
+
+
+        <TextBlock Grid.Row="4" Grid.Column="1" Text="Email" Style="{StaticResource textblk }" />
+        <TextBox Name="Email" Grid.Column="2" Grid.Row="4"  Style="{StaticResource textbox }"/>
+        <Label  x:Name="EmailRequired"  Grid.Row="4" Grid.Column="1" Style="{StaticResource invalid}"/>
+
+
+        <TextBlock Grid.Row="5" Grid.Column="1" Text="Date of Birth" Style="{StaticResource textblk }"/>
+        <DatePicker x:Name="DOB" Grid.Row="5" Grid.Column="2" Margin="11,5,10,0"/>
+        <Label  x:Name="DOBRequired"  Grid.Row="5" Grid.Column="1" Style="{StaticResource invalid}"/>
+
+        
+
+
+        <TextBlock Grid.Row="6" Grid.Column="1" Text="Gender" Style="{StaticResource textblk }" />
+        <StackPanel  Grid.Row="6" Grid.Column="2" Orientation="Vertical" Margin="0,10,0,10">
+            <RadioButton x:Name="Male" IsChecked="True" HorizontalAlignment="Center" Content="Male"  />
+            <RadioButton x:Name="Female" HorizontalAlignment="Center" Content="Female"/>
+        </StackPanel>
+
+
+        <TextBlock Grid.Row="7" Grid.Column="1" Text="Phone" Style="{StaticResource textblk }" />
+        <TextBox Name="number" Grid.Column="2" Grid.Row="7"  Style="{StaticResource textbox }"/>
+        <Label  x:Name="NumberRequired"  Grid.Row="7" Grid.Column="1" Style="{StaticResource invalid}"/>
+
+
+        <TextBlock Grid.Row="8" Grid.Column="1" Text="Password" Style="{StaticResource textblk }" />
+        <PasswordBox  x:Name="pass" Grid.Row="8" Grid.Column="2" Style="{StaticResource pass }" />
+        <Label  x:Name="PasswordRequired"  Grid.Row="8" Grid.Column="1" Style="{StaticResource invalid}"/>
+
+
+        <TextBlock Grid.Row="8" Grid.Column="5" Text=" Re-Enter Password" Style="{StaticResource textblk }" />
+        <PasswordBox  x:Name="repass" Grid.Row="8" Grid.Column="6" Style="{StaticResource pass }" />
+        <Label  x:Name="matchRequried"  Grid.Row="8" Grid.Column="5" Style="{StaticResource invalid}" Content="Password did not matched"/>
+
+        <Button Grid.Column="3" Grid.Row="9" Grid.ColumnSpan="3" Content="Create" Margin="20" Height="25" Style="{StaticResource btn}" Click="Button_Click"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,29 @@
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\bin\Debug\Supermarket Mangment System.exe.config
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\bin\Debug\Supermarket Mangment System.exe
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\bin\Debug\Supermarket Mangment System.pdb
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Supermarket Mangment System.csprojAssemblyReference.cache
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\MainWindow.g.cs
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\newAccount.g.cs
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\App.g.cs
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Supermarket Mangment System_MarkupCompile.cache
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Supermarket Mangment System_MarkupCompile.lref
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\MainWindow.baml
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\newAccount.baml
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Supermarket Mangment System.g.resources
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Supermarket_Mangment_System.Properties.Resources.resources
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Supermarket Mangment System.csproj.GenerateResource.cache
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Supermarket Mangment System.csproj.CoreCompileInputs.cache
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Supermarket Mangment System.exe
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Supermarket Mangment System.pdb
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Login.g.cs
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Login.baml
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Manager.g.cs
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Manager.baml
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Add_Stock.g.cs
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Add_Stock.baml
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Salesman.g.cs
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Salesman.baml
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Invoice.g.cs
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\Invoice.baml
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\SalesmanProfile.g.cs
+E:\HAMZA\5th Semester\Visual Programming\Final Project\Supermarket Mangment System\Supermarket Mangment System\obj\Debug\SalesmanProfile.baml
